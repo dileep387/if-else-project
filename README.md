@@ -3,12 +3,8 @@
 
 int main() {
     int age;
-
-    // User se age input lena
     printf("Apni umr (age) daaliye: ");
     scanf("%d", &age);
-
-    // Condition check karna
     if (age >= 18) {
         printf("Aap vote de sakte hain! (Eligible to vote)\n");
     } 
